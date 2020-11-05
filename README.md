@@ -51,3 +51,22 @@ http://127.0.0.1/showname?number=2019999999&password=123456
 
 
 
+### 提交方式
+
+请把项目提交到 ：
+
+```
+git@github.com:yeyujian/geek2020-exam.git
+```
+
+**样例：**  这里很重要不要搞错了   分支一定要以自己名字命名
+
+```git
+git init
+git checkout -b 你的名字                               #这里是创建你的分支名 按照你名字来定义
+git add .
+git commit -m "前端/后端"
+git remote add origin  git@github.com:yeyujian/geek2020-exam.git
+git pull origin  你的分支名
+```
+
